@@ -1,0 +1,28 @@
+.element {
+  width: 250px;
+  height: 110px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .element {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .element {
+    width: 180px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .element {
+    width: 110px;
+    height: 80px;
+  }
+}
